@@ -1047,7 +1047,7 @@ router.post('/createRegForm', async (req, res) => {
 router.get('/myEventForm/:eventID', async (req, res) => {
   try {
     const eventID = req.params.eventID;
-    const eventForms = await EventRegForm.find({ eventID: eventID });
+    const eventForms = await EventRegForm1.find({ eventID: eventID });
     if (!eventForms || eventForms.length === 0) {
       return res.status(404).send({ error: 'Members not found for the specified event' });
     }
