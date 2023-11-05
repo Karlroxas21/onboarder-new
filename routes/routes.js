@@ -8,7 +8,8 @@ const Events = require('../models/events');
 const MemForm = require('../models/membershipForm');
 
 const Admin = require('../models/admin');
-// const EventRegForm = require('../models/eventRegForm');
+const EventRegForm1 = require('../models/eventRegForm1');
+
 const MembershipApplication = require('../models/membershipApplication');
 
 
